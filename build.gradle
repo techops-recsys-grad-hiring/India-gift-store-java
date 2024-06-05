@@ -31,7 +31,7 @@ test {
 jar {
     manifest {
         attributes(
-                'Main-Class': 'com.thoughtworks.codepairing.GiftStore'
+                'Main-Class': javaMainClass
         )
     }
 }

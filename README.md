@@ -10,36 +10,30 @@ NOTE1:- Make sure to handle exceptions gracefully.<br>
 NOTE2:- Make sure to write modular code.<br>
 For more info refer to the problem statement document shared to you separately.
 
-## Technology used
-
+## Technologies used
 - Java
 - Gradle - build tool
 - JUnit - unit testing framework
 
-## Before the interview
-
-Get familiar with the codebase! Make sure you have the necessary dependencies installed, and that you are able to run the tests.
-
 ## What you need to run it
-
 - [Java 1.8](https://adoptopenjdk.net/?variant=openjdk8)
 
+## Before the interview
+Get familiar with the codebase! Make sure you have the necessary dependencies installed, and that you are able to run the tests.
+
 ## Build
-### Note: Run the below command only when the tests are fixed
+#### Note: Run the below command only when the tests are fixed
 ```console
 ./gradlew clean build
 ```
 
 ## Run Tests
-
 ```console
 ./gradlew test
 ```
 
-## Run the Sample Application
-
+## Run the Application
 To understand how this application would be used you can check the `main` method in the `GiftStore` class. If you want to see the results, run:
-
 ```console
 ./gradlew clean build -x test
 java -jar build/libs/joi-grad-gift-store-java.jar
