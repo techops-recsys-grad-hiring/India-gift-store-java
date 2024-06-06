@@ -1,6 +1,4 @@
 # Welcome to Gift Store!
-*For Windows - [please refer this](README-Windows.md)*
-
 This is where you can start to get familiar with the problem and what you need to run it.
 This codebase is used during code pairing session for JOI initiative.
 It's focused on identifying code smells, refactoring and testing legacy codebase while promoting conversations.
@@ -26,19 +24,19 @@ Get familiar with the codebase! Make sure you have the necessary dependencies in
 ## Build
 #### Note: Run the below command only when the tests are fixed.
 ```console
-./gradlew clean build
+gradlew.bat clean build
 ```
 
 ## Run Tests
 #### Note: Initially the tests will fail. You need to fix them.
 ```console
-./gradlew test
+gradlew.bat test
 ```
 
 ## Run the Application
 To understand how this application would be used you can check the `main` method in the `GiftStore` class. If you want to see the results, run:
 ```console
-./gradlew clean build -x test
+gradlew.bat clean build -x test
 java -jar build/libs/joi-grad-gift-store-java.jar
 ```
 
