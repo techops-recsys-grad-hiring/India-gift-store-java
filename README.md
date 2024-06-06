@@ -22,12 +22,13 @@ For more info refer to the problem statement document shared to you separately.
 Get familiar with the codebase! Make sure you have the necessary dependencies installed, and that you are able to run the tests.
 
 ## Build
-#### Note: Run the below command only when the tests are fixed
+#### Note: Run the below command only when the tests are fixed.
 ```console
 ./gradlew clean build
 ```
 
 ## Run Tests
+#### Note: Initially the tests will fail. You need to fix them.
 ```console
 ./gradlew test
 ```
